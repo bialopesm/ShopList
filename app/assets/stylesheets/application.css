@@ -1,0 +1,78 @@
+/* Custom styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;  /* Light background for the page */
+  color: #333;  /* Darker text color for readability */
+  padding: 20px;
+}
+
+/* Customizing the header */
+header h1 {
+  color: #5C8EF1;
+  font-size: 2.5rem;
+}
+
+/* Custom styles for the product cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body .badge {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn-amenitill {
+  background-color: #5C8EF1;  /* Custom color */
+  border-color: #5C8EF1;
+  color: white;
+}
+
+.btn-amenitill:hover {
+  background-color: #4A7BCF;  /* Darker shade on hover */
+  border-color: #4A7BCF;
+}
+
+.btn-warning {
+  background-color: #F3D77F;
+  border-color: #F3D77F;
+}
+
+.btn-outline-danger {
+  border-color: #d9534f;
+}
+
+.btn-outline-danger:hover {
+  background-color: #d9534f;
+  color: white;
+}
+
+/* Styling the cart section */
+#cart {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#cart ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cart ul li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+#cart .alert-primary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #cce5ff;
+  color: #004
+}
